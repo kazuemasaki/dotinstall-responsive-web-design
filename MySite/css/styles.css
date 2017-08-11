@@ -8,8 +8,23 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #333;
+	background-color: #f8f8f8
 }
 
 p{
 	line-height: 2;
+}
+
+/* medium */
+@media  (min-width: 570px){
+	body {
+		background-color: skyblue;
+	}
+}
+
+/* large */
+@media  (min-width: 820px){
+	body {
+		background-color: lime;
+	}
 }
