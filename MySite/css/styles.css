@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 /* common */
 
@@ -8,23 +8,48 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #333;
-	background-color: #f8f8f8
+	background: #f8f8f8;
 }
 
 p{
 	line-height: 2;
 }
 
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+section {
+	padding: 60px 0;
+}
+
+section h2 {
+	text-align: center;
+	margin: 0 0 60px;
+}
+
+section:nth-child(even) {
+	background: #fff;
+}
+
+/* header */
+.header-mobile-menu{
+	float: right;
+	font-size: 24px;
+	cursor: pointer;
+}	
+
 /* medium */
 @media  (min-width: 570px){
 	body {
-		background-color: skyblue;
+		background: skyblue;
 	}
 }
 
 /* large */
 @media  (min-width: 820px){
 	body {
-		background-color: lime;
+		background: lime;
 	}
 }
