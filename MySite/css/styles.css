@@ -92,7 +92,7 @@ section:nth-child(even) {
 footer {
 	text-align: center;
 	color: #ccd;
-	padding: 60px;
+	padding: 60px 0;
 }
 
 
@@ -144,5 +144,23 @@ footer {
 @media  (min-width: 820px){
 	body {
 		background: lime;
+	}
+
+	.container {
+		width: 820px;
+	}
+
+	.header-pc-menu {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		float: right;
+	}
+
+	.header-pc-menu > li {
+		display: inline-block;
+		width: 60px;
+		text-align: center;
+		cursor: pointer;
 	}
 }
