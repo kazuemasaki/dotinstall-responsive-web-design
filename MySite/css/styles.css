@@ -33,6 +33,18 @@ section:nth-child(even) {
 	background: #fff;
 }
 
+/* features */
+.features img {
+	width: 100%;
+}
+
+.features .item {
+	margin-bottom: 60px;
+}
+.features .item:last-child {
+	margin-bottom: 0;
+}
+
 /* header */
 .header-mobile-menu{
 	float: right;
