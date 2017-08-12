@@ -69,6 +69,21 @@ section:nth-child(even) {
 	cursor: pointer;
 }	
 
+/* how-to-use */
+.how-to-use iframe{
+	width: 100%;
+	height: auto;
+}
+
+/* footer */
+footer {
+	text-align: center;
+	color: #ccd;
+	padding: 60px;
+}
+
+
+
 /* medium */
 @media  (min-width: 570px){
 	body {
