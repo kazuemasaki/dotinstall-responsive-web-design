@@ -102,6 +102,29 @@ footer {
 	body {
 		background: skyblue;
 	}
+
+	.features p {
+		width: 45%;
+	}
+
+	.features img {
+		width: 50%;
+	}
+
+	.pull-right {
+		float: right;
+		padding-left: 5%;
+	}
+
+	.pull-left {
+		float: left;
+		padding-right: 5%;
+	}
+
+	.features .item {
+		overflow: hidden;
+	}
+
 }
 
 /* large */
