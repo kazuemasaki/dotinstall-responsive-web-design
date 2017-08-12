@@ -125,6 +125,19 @@ footer {
 		overflow: hidden;
 	}
 
+	.news .container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.news .item {
+		width: 30%;
+	}
+
+	.news .item img{
+		width: 100%;
+	}
+
 }
 
 /* large */
