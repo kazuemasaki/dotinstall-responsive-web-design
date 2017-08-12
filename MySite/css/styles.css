@@ -68,6 +68,10 @@ section:nth-child(even) {
 	cursor: pointer;
 }	
 
+.header-pc-menu {
+	display: none;
+}
+
 /* how-to-use */
 .how-to-use iframe{
 /*	width: 100%;
@@ -150,7 +154,12 @@ footer {
 		width: 820px;
 	}
 
+	.header-mobile-menu {
+		display: none;
+	}
+
 	.header-pc-menu {
+		display: block;
 		list-style: none;
 		padding: 0;
 		margin: 0;
